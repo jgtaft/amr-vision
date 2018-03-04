@@ -38,38 +38,32 @@
 			</section>
 
 		<!-- Two -->
-			<section id="two" class="wrapper style2">
-				<div class="inner">
-					<div class="box">
+		<div id="main" class="container">
 
-						<div class="content">
-							<header class="align-center">
-								<p>hehe its fun</p>
-								<h2>Upload & View</h2>
-							</header>
-							<p>ARDVARC will check your genome against historic genome data.</p>
-							<p>Right now, ARDVARC only works for E. coli developing resistance against trimethoprim. In the future, ARDVARC will work for more genomes and more antibiotics.</p>
-							<textarea rows="10" cols="30">Paste your genome here.</textarea>
-							<br/>
-							or...
-							<br/>
-							<br/>
-							<input name="upload" type="file">
-							<br/>
-							<br/>
-							<button onclick="setTimeout(wait, 3000)">Submit Data</button>
-							<script>
-							function wait(){
-								console.log("logged");
-								var win = window.open("combodemo.html", '_blank');
-								win.focus();
-							}
-							</script>
-							<!-- <a href="combodemo.html" class="button special big">Submit Data</a> -->
-						</div>
-					</div>
-				</div>
-			</section>
+			<header class="align-center">
+				<h2>Upload & View</h2>
+			</header>
+			<p>ARDVARC will check your genome against historic genome data.</p>
+			<p>Right now, ARDVARC only works for E. coli developing resistance against trimethoprim. In the future, ARDVARC will work for more genomes and more antibiotics.</p>
+			<textarea rows="10" cols="30">Paste your genome here.</textarea>
+			<br/>
+			or...
+			<br/>
+			<br/>
+			<input name="upload" type="file">
+			<br/>
+			<br/>
+			<button onclick="setTimeout(wait, 3000)">Submit Data</button>
+			<script>
+			function wait(){
+				console.log("logged");
+				var win = window.open("combodemo.html", '_blank');
+				win.focus();
+			}
+			</script>
+			<!-- <a href="combodemo.html" class="button special big">Submit Data</a> -->
+		</div>
+
 
 		<!-- Footer -->
 			<footer id="footer">

@@ -1,5 +1,6 @@
-islandplot
+Visualization
 ==========
+The visualization used here uses islandplot by Matthew Laird.
 
 Islandplot is an SVG based genome viewer written in javascript using D3
 
@@ -37,7 +38,7 @@ Data format
 The data passed in must be an array of track objects (see included data.js for sample data).  Each track has the format of:
 
 ```
-{ 
+{
   trackName: "track1",
   trackType: "stranded",
   visible: true,
@@ -114,7 +115,7 @@ var cTrack = new circularTrack(circularlayout, tracks);
 cTrack.attachBrush(linearTrack);
 ```
 
-Both the linear and circular plots allow multiple callbacks if there is more than one element you need to alter when either the linear or circular brushes are altered.  Simply make multiple calls to attachBrush() in either plot type and the callbacks will each be called on update. 
+Both the linear and circular plots allow multiple callbacks if there is more than one element you need to alter when either the linear or circular brushes are altered.  Simply make multiple calls to attachBrush() in either plot type and the callbacks will each be called on update.
 
 ```
 cTrack.attachBrush(linearTrack);
@@ -238,4 +239,3 @@ linear_glyphSize: Size of a glyph on a linear plot
 
 linear_height: Distance from the top, in px, that a glyph track will start displaying on a linear track
 linear_invert: true or false, if false glyphs will begin stacking down on a linear track. If true glyphs will stack upwards
-
