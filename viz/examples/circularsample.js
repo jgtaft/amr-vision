@@ -87,7 +87,7 @@ function saveImage() {
 // do it this way to get around IE <9 not supporting
 // parameters to the function called by setTimeout()
 //
-// If you have over an island, the console log will 
+// If you have over an island, the console log will
 // display the callback parameters when the timer expires
 //
 // The callback for hover (along with click) are defined in
@@ -127,4 +127,3 @@ function doubleClick(plotid, bp) {
 
     }
 }
-
