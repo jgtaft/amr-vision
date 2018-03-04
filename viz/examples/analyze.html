@@ -43,8 +43,10 @@
 			<header class="align-center">
 				<h2>Upload & View</h2>
 			</header>
-			<p>ARDVARC will check your genome against historic genome data.</p>
-			<p>Right now, ARDVARC only works for E. coli developing resistance against trimethoprim. In the future, ARDVARC will work for more genomes and more antibiotics.</p>
+			<p>ARDVARC will check your genome against historic genome data and point out places on the genome where future AMR-related mutations might occur.
+
+			As a demonstration, ARDVARC is currently pre-programmed to focus on a certain bacterium and antibiotic: E. coli developing resistance against trimethoprim. In the future, ARDVARC will work for more genomes and more antibiotics.</p>
+			<br/>
 			<textarea rows="10" cols="30">Paste your genome here.</textarea>
 			<br/>
 			or...
@@ -56,7 +58,6 @@
 			<button onclick="setTimeout(wait, 3000)">Submit Data</button>
 			<script>
 			function wait(){
-				console.log("logged");
 				var win = window.open("combodemo.html", '_blank');
 				win.focus();
 			}
